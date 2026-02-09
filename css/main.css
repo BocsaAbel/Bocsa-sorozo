@@ -38,7 +38,7 @@ body, html {
 .hero {
     height: 90vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('img/hatter.jpeg') no-repeat center center/cover;
+                url('../img/hatter.jpeg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,12 +70,12 @@ body, html {
 }
 
 
-.about-brief {
+.aboutfo {
     padding: 100px 10%;
     text-align: center;
 }
 
-.about-brief h2 {
+.aboutfo h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -119,6 +119,56 @@ body, html {
     
 }
 
+ .idok-section {
+    padding: 80px 5%;
+    background-color: #000; 
+    color: #fff;
+    text-align: center;
+}
+
+.idok-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #e5bc5d; 
+}
+
+.ora-grid {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.nap-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #222;
+    font-size: 1.1rem;
+}
+
+.nap-row:last-child {
+    border-bottom: none;
+}
+
+.nap {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ido {
+    color: #e5bc5d;
+}
+
+
+.nap-row.today {
+    background: rgba(229, 188, 93, 0.1);
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -144,7 +194,7 @@ body, html {
     .about-brief {
         padding: 60px 5%;
     }
-}
+} */
 
 
 @media (max-width: 480px) {
