@@ -1,3 +1,4 @@
+/* GLOBAL STYLES */
 body, html {
     margin: 0;
     padding: 0;
@@ -10,8 +11,6 @@ body, html {
 .logo1 {
     width: 100px;
     height: auto;
-    
-    
 }
 
 .navbar {
@@ -35,6 +34,7 @@ body, html {
 .nav-links li { margin-left: 20px; }
 .nav-links a { text-decoration: none; color: white; font-weight: bold; text-transform: uppercase; font-size: 0.9rem; }
 
+/* INDEX.HTML STYLES */
 .hero {
     height: 90vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
@@ -103,8 +103,6 @@ body, html {
     overflow: hidden;
     height: 100%;
     width: 100%;
-    
-    
 }
 
 .map-container iframe {
@@ -113,13 +111,11 @@ body, html {
 }
 
 .container {
-
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
- .idok-section {
+.idok-section {
     padding: 80px 5%;
     background-color: #000; 
     color: #fff;
@@ -169,6 +165,7 @@ body, html {
     border-radius: 5px;
 }
 
+/* FOOTER STYLES */
 .main-footer {
     background-color: #fff;
     color: #1a1a1a;
@@ -211,9 +208,6 @@ body, html {
 .footer-column ul li a:hover {
     color: #e5bc5d;
 }
-
-
-
 
 .newsletter h3 { margin-top: 20px; }
 .newsletter p { color: #555; margin-bottom: 15px; }
@@ -314,7 +308,7 @@ body, html {
     max-width: 300px; 
 }
 
-
+/* ROLUNK.HTML STYLES */
 .team-section {
     padding: 80px 5%;
     background-color: #fff;
@@ -455,9 +449,7 @@ body, html {
 }
 
 
-/* Itallap css resze */
-
-
+/* ITALLAP.HTML STYLES */
 .hero1 {
     height: 90vh;
     position: relative;
@@ -477,7 +469,6 @@ body, html {
     height: 100%;
     object-fit: cover; 
     object-position: center;
-    
 }
 
 .hero1::after {
@@ -558,7 +549,7 @@ body, html {
     white-space: nowrap;
 }
 
-
+/* RESPONSIVE STYLES */
 @media (max-width: 768px) {
     .menu-grid {
         grid-template-columns: 1fr; 
@@ -574,8 +565,6 @@ body, html {
     }
 }
  
-
-    
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
