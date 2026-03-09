@@ -1,2 +1,2 @@
 A projektemhez flow-t hasznaltam ami egy google AI , hasznaltam mellé geminit azzal generáltam egy alap template-t az index.html-re amit utána módosítottam és dizájnóltam. A szöveget geminivel generáltam mellé amit átnéztem és javítottam.
-A kódolásban hibát észleltem akkor az AI-t kértem meg hogy keresse meg a hibát amit után átírtam és javítottam. flow-al generáltam a képeket a projektemhez szimpla promptok alapján.
+A kódolásban hibát észleltem akkor az AI-t kértem meg hogy keresse meg a hibát amit utána átírtam és javítottam. flow-al generáltam a képeket a projektemhez szimpla promptok alapján.
