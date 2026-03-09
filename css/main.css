@@ -34,6 +34,17 @@ body, html {
 .nav-links li { margin-left: 20px; }
 .nav-links a { text-decoration: none; color: white; font-weight: bold; text-transform: uppercase; font-size: 0.9rem; }
 
+.cart-link {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.cart-link:hover {
+    transform: scale(1.2); 
+    color: #e5bc5d !important; 
+}
+
 /* INDEX.HTML STYLES */
 .hero {
     height: 90vh;
@@ -562,6 +573,12 @@ body, html {
     
     .menu-item {
         padding: 10px 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cart-item {
+        margin-top: 10px;
     }
 }
  
