@@ -530,15 +530,14 @@ body, html {
 
 .menu-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     padding: 15px 0;
     border-bottom: 1px dotted #ccc;
 }
 
 .menu-details {
-    display: flex;
-    flex-direction: column;
+    flex-grow: 1; 
 }
 
 .item-name {
@@ -557,13 +556,35 @@ body, html {
     font-weight: 900;
     color: #e5bc5d;
     font-size: 1.1rem;
-    white-space: nowrap;
+    white-space: nowrap; 
+    text-align: right;
+    flex-grow: 1;
+    margin-right: 20px;
 }
 
 /* KOSÁR OLDAL STÍLUSOK */
 .cart-section {
     padding: 60px 0;
     min-height: 70vh;
+}
+
+
+.price-action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px; 
+    min-width: 150px;
+}
+
+.add-to-cart-btn {
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: transform 0.2s;
+}
+
+.add-to-cart-btn:hover {
+    transform: scale(1.2);
 }
 
 .cart-grid {
@@ -599,7 +620,11 @@ body, html {
 }
 
 .cart-item-info {
-    padding: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;    
 }
 
 .cart-item-info h3 {
@@ -608,16 +633,23 @@ body, html {
     text-transform: uppercase;
 }
 
+.cart-item-info .item-price {
+    color: #e5bc5d;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+}
+
 .remove-btn {
     background: none;
     border: 1px solid #cc0000;
     color: #cc0000;
-    padding: 5px 15px;
+    padding: 8px 20px;
     cursor: pointer;
     font-size: 0.8rem;
-    margin-top: 10px;
     border-radius: 4px;
     transition: 0.3s;
+    width: fit-content; 
 }
 
 .remove-btn:hover {
