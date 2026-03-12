@@ -34,6 +34,13 @@ body, html {
 .nav-links li { margin-left: 20px; }
 .nav-links a { text-decoration: none; color: white; font-weight: bold; text-transform: uppercase; font-size: 0.9rem; }
 
+
+.nav-links a.active {
+    color: #e5bc5d; 
+    border-bottom: 2px solid #e5bc5d;
+    padding-bottom: 5px;
+}
+
 .cart-link {
     font-size: 1.2rem;
     transition: transform 0.3s ease;
