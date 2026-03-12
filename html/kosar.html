@@ -12,51 +12,83 @@
 <body>  
 
     <nav class="navbar">
-        <a href="index.html"><img class="logo1" src="../img/letöltés.png" alt=""></a>
+        <a href="index.html"><img class="logo1" src="../img/letöltés.png" alt="Bócsa Sörözde Logo"></a>
         <div class="logo">Bócsa Sörözde</div>
         <ul class="nav-links">
             <li><a href="index.html">Főoldal</a></li>
             <li><a href="Itallap.html">Itallap</a></li>
             <li><a href="galeria.html">Galéria</a></li>
             <li><a href="rolunk.html" class="cta-btn">Rólunk</a></li>
-            <li><a href="kosar.html" class="cart-link">🛒</a></li>
+            <li><a href="kosar.html" class="cart-link active">🛒</a></li>
         </ul>
     </nav>
 
     <section class="cart-section">
         <div class="container">
-            <h1 class="category-title">A Te Kosarad</h1>
+            <header class="cart-header">
+                <h1 class="category-title">A Te Kosarad</h1>
+                <p class="cart-subtitle">Még 5 000 Ft az ingyenes házhozszállításhoz!</p>
+            </header>
             
-            <div class="cart-grid">
-                <div class="cart-card">
-                    <div class="cart-item-img">
-                        <img src="../img/vilagosör.png" alt="Termék kép">
+            <div class="cart-layout">
+                <div class="cart-items-container">
+                    <div class="cart-card-modern">
+                        <div class="cart-item-img">
+                            <img src="../img/vilagosör.png" alt="Helyi Világos" class="kosarkep">
+                        </div>
+                        <div class="cart-item-info-modern">
+                            <h3>Helyi Világos (Csapolt)</h3>
+                            <p class="item-meta">0.5L • Kézműves sör</p>
+                            <div class="cart-controls">
+                                <div class="quantity-selector">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                                <span class="item-price">850 Ft</span>
+                            </div>
+                        </div>
+                        <button class="remove-icon" title="Törlés">✕</button>
                     </div>
-                    <div class="cart-item-info">
-                        <h3>Helyi Világos (Csapolt)</h3>
-                        <p class="item-price">850 Ft</p>
-                        <button class="remove-btn">Törlés</button>
+
+                    <div class="cart-card-modern">
+                        <div class="cart-item-img">
+                            <img src="../img/palinkakep.png" alt="Ház Pálinkája" class="kosarkep">
+                        </div>
+                        <div class="cart-item-info-modern">
+                            <h3>Ház Pálinkája</h3>
+                            <p class="item-meta">4cl • Kajszibarack</p>
+                            <div class="cart-controls">
+                                <div class="quantity-selector">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                                <span class="item-price">1 100 Ft</span>
+                            </div>
+                        </div>
+                        <button class="remove-icon" title="Törlés">✕</button>
                     </div>
                 </div>
 
-                <div class="cart-card">
-                    <div class="cart-item-img">
-                        <img src="../img/palinkakep.png" alt="Termék kép">
+                <aside class="cart-summary-panel">
+                    <h3>Rendelés összesítése</h3>
+                    <div class="summary-row">
+                        <span>Részösszeg:</span>
+                        <span>1 950 Ft</span>
                     </div>
-                    <div class="cart-item-info">
-                        <h3>Ház Pálinkája</h3>
-                        <p class="item-price">1 100 Ft</p>
-                        <button class="remove-btn">Törlés</button>
+                    <div class="summary-row">
+                        <span>Szállítás:</span>
+                        <span>990 Ft</span>
                     </div>
-                </div>
-            </div>
-
-            <div class="cart-summary">
-                <div class="total-box">
-                    <span>Teljes fizetendő összeg:</span>
-                    <span class="total-price">1 950 Ft</span>
-                </div>
-                <a href="#" class="main-btn">Tovább a fizetéshez</a>
+                    <hr>
+                    <div class="summary-row total">
+                        <span>Fizetendő:</span>
+                        <span class="total-price">2 940 Ft</span>
+                    </div>
+                    <a href="#" class="checkout-btn">Tovább a fizetéshez</a>
+                    <a href="Itallap.html" class="continue-shopping">Vásárlás folytatása</a>
+                </aside>
             </div>
         </div>
     </section>
